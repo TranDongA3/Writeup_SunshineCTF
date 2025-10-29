@@ -1,16 +1,16 @@
-![image.png](attachment:adc881d0-4f9a-4d55-9158-48e060b048c9:image.png)
+![image](static/1.png)
 
 Như đề bài thì nó yêu cầu về việc xâm nhập vào admin panel để nhận được flag, nên mục tiêu cũng rõ ràng.
 
-![image.png](attachment:f47396fe-7bda-4351-af3b-166509c4b3e5:image.png)
+![image](static/2.png)
 
 Ta sẽ tiến hành recon trang web này , đầu tiên là check file robots.txt thấy được endpoint bị disallow như sau:
 
-![image.png](attachment:48ae34ab-7dd1-4311-b17f-381d37aad3d6:image.png)
+![image](static/3.png)
 
 Tiến hành truy cập vào , thì ra giao diện một trang đăng nhập như này:
 
-![image.png](attachment:b2490cb0-bcc4-4b3c-9dd8-0397b24ed917:image.png)
+![image](static/4.png)
 
 ViewSoure thì ta thấy một đoạn mã Js xử lí như sau:
 
@@ -65,4 +65,4 @@ password=’S3cur4_P@$$w0RD!’
 
 Done , thử thách quá dễ.
 
-![image.png](attachment:1956ed45-d578-4a34-b2ab-e387f4d2a9e8:image.png)
+![image](static/5.png)
