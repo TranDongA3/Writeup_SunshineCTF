@@ -1,12 +1,12 @@
 # **Intergalactic Webhook Service**
 
-![image.png](attachment:6fbf2c7f-faf7-4fe7-8e49-c8d775439c4f:image.png)
+image.png
 
 Bài này có source nên có thể tham khảo source ở đây: [Writeup_SunshineCTF/src at main · TranDongA3/Writeup_SunshineCTF](https://github.com/TranDongA3/Writeup_SunshineCTF/tree/main/src)
 
 Bài này thì có 2 chức năng chính sau:
 
-![image.png](attachment:2b282bb6-1ad3-432c-9cab-3840f0b8d534:image.png)
+image.png
 
 ```
 @app.route('/register', methods=['POST'])
@@ -96,13 +96,13 @@ Cơ bản về kỹ thuật đó chính là dùng một tên miền ban đầu p
 
 Ta thử : 
 
-![image.png](attachment:118beaa9-1edb-4bb4-836d-74e7e8529576:image.png)
+image.png
 
 Quá hay đúng không. Cụ thể hơn sẽ là trường hợp này:
 
 http://make-8.8.8.8-rebind-127.0.0.1-rr.1u.ms:5001/flag
 
-![image.png](attachment:7237a098-f506-4fa0-b4a8-bf7386fa4efb:image.png)
+image.png
 
 Sau khi đăng ký trả về như này:
 
